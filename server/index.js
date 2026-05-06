@@ -317,6 +317,14 @@ app.get('/api/bookings', (req, res) => {
   res.json(getBookings())
 })
 
+app.get('/api/status', (req, res) => {
+  res.json({
+    prices: 'Манікюр 250, Манікюр+покриття 350, Педикюр 400, Зняття 100',
+    address: 'Ливарна 9',
+    bot: bot ? 'active' : 'inactive'
+  })
+})
+
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
   console.log(`Сервер запущен на порту ${PORT}`)
