@@ -269,7 +269,7 @@ if (BOT_TOKEN && ADMIN_ID) {
     }
   })
 
-  console.log('Telegram бот запущен')
+  console.log('Telegram бот + сервер запущен')
 }
 
 // API routes
