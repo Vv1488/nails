@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+source .env
 echo "Building..."
 npm run build
 echo "Deploying to GitHub Pages..."
