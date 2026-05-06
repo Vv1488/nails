@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink: #d4478c;
+  --pink-dark: #b82d72;
+  --pink-light: #f5b8d8;
+  --white: #ffffff;
+  --bg: #fdf6f0;
+  --text: #4a3548;
+  --text-light: #7a6a78;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--pink-dark);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--pink);
+}
